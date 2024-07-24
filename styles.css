@@ -272,7 +272,7 @@ img {
 }
 
 .video-content:hover {
-    transform: scale(1.5);
+    transform: scale(1);
     z-index: 222;
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
@@ -280,17 +280,17 @@ img {
 }
 
 .video-content-cover:hover {
-    transform: translateY(60px);
+    transform: translateY(10px);
     z-index: 999;
 }
 
 .video-content-cover:nth-child(4n+1):hover {
-    transform: translate(50px, 60px);
+    transform: translate(10px, 20px);
     z-index: 999;
 }
 
 .video-content-cover:nth-child(4n+4):hover {
-    transform: translate(-30px, 60px);
+    transform: translate(10px, 1g0px);
     z-index: 999;
 }
 
@@ -420,8 +420,10 @@ img {
     .video-container {
         grid-template-columns: 1fr;
     }
-    .search-container,
-    .ri-grid-fill {
+    .search-container
+    ,
+    .ri-grid-fill 
+    {
         display: none;
     }
     .video-container {
